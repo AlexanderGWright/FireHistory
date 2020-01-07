@@ -1,0 +1,184 @@
+/*Alexander Wright, Nov 26 2019, Project part 3*/
+/*----------------------------------------Media Quearies Below----------------------------------------*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+	/*Sets the 'Coming Soon!' text on the FAQ page*/
+	#comingSoon{
+				color:white;font-family: Impact, Charcoal, sans-serif; 
+				font-size: 40px; 
+				letter-spacing: 6px; 
+				word-spacing: -5px;
+				font-weight: 400; 
+				margin-left: 25%;
+				margin-top: 20%;
+			   }
+			   
+	/*Configure the size of the images within the hyperlinks that are inside the figure tag on the images page*/
+	figure > a > img{
+				width:100%;
+				max-width:475px;
+				border-radius: 2%;
+			  }
+			   
+			   
+	.ContentPhotos{
+					width:100%;
+					max-width:450px;
+					padding: 1%;
+				   }
+	
+	footer{text-align: center;}
+	
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+	
+			   
+	/*Configure the size of the images within the hyperlinks that are inside the figure tag on the images page*/
+	figure > a > img{
+				width:100%;
+				max-width:500px;
+				border-radius: 2%;
+			  }
+			  
+	
+	.ContentPhotos{
+					width:100%;
+					max-width:550px;
+					padding: 1%;
+				   }
+	
+	footer{text-align: center;}
+	
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{			   
+			   
+	/*Configure the size of the images within the hyperlinks that are inside the figure tag on the images page*/
+	figure > a > img{
+					width:100%;
+					max-width:600px;
+					border-radius: 2%;
+					}
+	
+	
+	.ContentPhotos{
+					width:100%;
+					max-width:300px;
+					float:left;
+					padding: 1%;
+				   }
+				   
+	footer{text-align: left;}
+	
+}
+
+
+/* Large devices (laptops/desktops, 1103px and up) */
+@media only screen and (min-width: 1103px) 
+{
+			   
+	
+	.ContentPhotos{
+					width:100%;
+					max-width:300px;
+					float:left;
+					padding: 1%;
+				   }
+				   
+	footer{text-align: left;}
+	
+}
+
+
+/* Large devices (laptops/desktops, 1501px and up) */
+@media only screen and (min-width: 1501px) 
+{	
+	
+	
+		  
+	
+			   
+	#colLeft{float:left; width: 31%; margin: 1%;}
+	
+	#colCenter{float:left; width: 31%; margin: 1%;}
+	
+	#colRight{float:right; width: 31%; margin: 1%;}
+	
+	
+	.ContentPhotos{
+					width:100%;
+					max-width:300px;
+					float:left;
+					padding: 1%;
+					
+				   }
+
+	footer{text-align: left;}
+}
+
+
+/*----------------------------------------Media Quearies Above----------------------------------------*/
+
+
+/*Makes the navbar partialy transparent*/
+#nav{
+
+    opacity: 0.90;
+	
+}
+
+#navbarNav{}
+
+/*Sets the text and background colour for the entire site*/
+body{background-color: #F6F6F6;
+	 color:black;}
+
+/*Centers webpage content*/
+#Wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	padding-bottom:5%;
+
+	
+}
+
+
+/*Sets global footer properties and centers it on the apge*/
+footer{
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	color:white;
+	background-color:black;
+	padding-top: 1%;
+	
+	
+	
+	
+}
+
+figure{
+	   padding-bottom:55px;
+	  }
+
+figcaption{font-weight: bold;}
+
+.link-padding{padding:0%;}
+
+.images{height: 100%; width: 100%;}
+
+.ColumnStyle{padding:15px;
+			 border-radius: 12px;
+			 box-shadow: 0px 0px 7px #DADADA;
+			 background-color:white;
+			 margin-bottom:25px;}
